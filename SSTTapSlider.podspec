@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SSTTapSlider"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Slider with ability to tap or pan outside of the thumb control."
 
   s.description  = <<-DESC
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.social_media_url = "http://twitter.com/smallsharptools"
 
   s.platform     = :ios, '7.0'
-  s.source       = { :git => "https://github.com/brennanMKE/SSTTapSlider.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/brennanMKE/SSTTapSlider.git", :tag => "0.0.3" }
   s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
   s.requires_arc = true
 

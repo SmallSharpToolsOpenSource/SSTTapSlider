@@ -8,3 +8,7 @@ Podspec release.
 
 Add delegate to track value changes.
 
+## 0.0.3
+
+Update for Podspec
+
