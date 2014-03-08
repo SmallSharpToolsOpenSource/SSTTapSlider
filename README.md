@@ -16,7 +16,7 @@ Place a UISlider on a Storyboard and set the custom class to `SSTTapSlider` in t
 or
 
     platform :ios, "7.0"
-    pod 'SSTTapSlider', :git => 'https://github.com/brennanMKE/SSTTapSlider.git', :tag => '0.0.1'
+    pod 'SSTTapSlider', :git => 'https://github.com/brennanMKE/SSTTapSlider.git', :tag => '0.0.2'
 
 ## License
 

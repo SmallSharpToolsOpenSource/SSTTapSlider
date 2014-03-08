@@ -8,10 +8,19 @@
 
 #import "SSTTapSliderViewController.h"
 
+#import "SSTTapSlider.h"
+
 @interface SSTTapSliderViewController ()
 
 @end
 
 @implementation SSTTapSliderViewController
+
+#pragma mark - SSTTapSliderDelegate
+#pragma mark -
+
+- (void)tapSlider:(SSTTapSlider *)tapSlider valueDidChange:(float)value {
+    DebugLog(@"%@ (%f)", NSStringFromSelector(_cmd), value);
+}
 
 @end

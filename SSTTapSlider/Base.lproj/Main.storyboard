@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Tap Slider View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="SSTViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="SSTTapSliderViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="k8J-yI-1As"/>
                         <viewControllerLayoutGuide type="bottom" id="vhp-VQ-eww"/>
@@ -49,6 +49,9 @@
                                             <constraint firstAttribute="height" constant="33" id="Wkr-eq-a5e"/>
                                         </constraints>
                                         <color key="minimumTrackTintColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="tapSliderDelegate" destination="vXZ-lx-hvc" id="120-IS-Ia7"/>
+                                        </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1500" minValue="1000" maxValue="2000" translatesAutoresizingMaskIntoConstraints="NO" id="5Ur-mN-Eud" customClass="SSTTapSlider">
                                         <rect key="frame" x="-2" y="146" width="284" height="34"/>
@@ -57,6 +60,9 @@
                                             <constraint firstAttribute="height" constant="33" id="2mm-im-paj"/>
                                         </constraints>
                                         <color key="minimumTrackTintColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="tapSliderDelegate" destination="vXZ-lx-hvc" id="aw9-g6-3rP"/>
+                                        </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5000" minValue="0.0" maxValue="10000" translatesAutoresizingMaskIntoConstraints="NO" id="f8w-yw-Ohf" customClass="SSTTapSlider">
                                         <rect key="frame" x="-2" y="187" width="284" height="34"/>
@@ -65,6 +71,9 @@
                                             <constraint firstAttribute="height" constant="33" id="Z8V-D6-N6P"/>
                                         </constraints>
                                         <color key="minimumTrackTintColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="tapSliderDelegate" destination="vXZ-lx-hvc" id="D1W-cn-c4R"/>
+                                        </connections>
                                     </slider>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

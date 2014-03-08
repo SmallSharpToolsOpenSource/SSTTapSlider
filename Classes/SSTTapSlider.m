@@ -50,6 +50,16 @@
     UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(sliderGestureRecognized:)];
     UIPanGestureRecognizer *panGestureRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(sliderGestureRecognized:)];
     slider.gestureRecognizers = @[tapGestureRecognizer, panGestureRecognizer];
+    
+    [slider addTarget:self action:@selector(sliderValueChanged:) forControlEvents:UIControlEventValueChanged];
+}
+
+- (void)sliderValueChanged:(id)sender {
+    DebugLog(@"%@", NSStringFromSelector(_cmd));
+    
+    if (self.tapSliderDelegate) {
+        [self.tapSliderDelegate tapSlider:self valueDidChange:self.value];
+    }
 }
 
 - (void)handleSliderGestureRecognizer:(UIGestureRecognizer *)recognizer {

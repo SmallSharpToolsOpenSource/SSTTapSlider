@@ -12,11 +12,13 @@
 
 @interface SSTTapSlider : UISlider
 
-@property (weak, nonatomic) id<SSTTapSliderDelegate>tapSliderDelegate;
+@property (weak, nonatomic) IBOutlet id<SSTTapSliderDelegate>tapSliderDelegate;
 
 @end
 
 @protocol SSTTapSliderDelegate <NSObject>
+
+@optional
 
 - (void)tapSlider:(SSTTapSlider *)tapSlider valueDidChange:(float)value;
 
