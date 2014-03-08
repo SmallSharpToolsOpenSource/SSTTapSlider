@@ -55,8 +55,6 @@
 }
 
 - (void)sliderValueChanged:(id)sender {
-    DebugLog(@"%@", NSStringFromSelector(_cmd));
-    
     if (self.tapSliderDelegate) {
         [self.tapSliderDelegate tapSlider:self valueDidChange:self.value];
     }
