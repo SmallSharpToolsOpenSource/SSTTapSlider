@@ -4,3 +4,7 @@
 
 Podspec release.
 
+## 0.0.2
+
+Add delegate to track value changes.
+
