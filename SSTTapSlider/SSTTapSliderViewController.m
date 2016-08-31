@@ -23,4 +23,16 @@
     DebugLog(@"%@ (%f)", NSStringFromSelector(_cmd), value);
 }
 
+- (void)tapSlider:(SSTTapSlider *)tapSlider tapEndedWithValue:(float)value {
+    DebugLog(@"%@ (%f)", NSStringFromSelector(_cmd), value);
+}
+
+- (void)tapSlider:(SSTTapSlider *)tapSlider panBeganWithValue:(float)value {
+    DebugLog(@"%@ (%f)", NSStringFromSelector(_cmd), value);
+}
+
+- (void)tapSlider:(SSTTapSlider *)tapSlider panEndedWithValue:(float)value {
+    DebugLog(@"%@ (%f)", NSStringFromSelector(_cmd), value);
+}
+
 @end
