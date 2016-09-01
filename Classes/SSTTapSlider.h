@@ -21,5 +21,8 @@
 @optional
 
 - (void)tapSlider:(SSTTapSlider *)tapSlider valueDidChange:(float)value;
+- (void)tapSlider:(SSTTapSlider *)tapSlider tapEndedWithValue:(float)value;
+- (void)tapSlider:(SSTTapSlider *)tapSlider panBeganWithValue:(float)value;
+- (void)tapSlider:(SSTTapSlider *)tapSlider panEndedWithValue:(float)value;
 
 @end
