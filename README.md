@@ -11,12 +11,19 @@ Place a UISlider on a Storyboard and set the custom class to `SSTTapSlider` in t
 
 ## CocoaPods
 
-    pod "SSTTapSlider"
+```ruby
+pod 'SSTTapSlider', '~> 0.1'
+```
 
-or
+## Carthage
 
-    platform :ios, "7.0"
-    pod 'SSTTapSlider', :git => 'https://github.com/brennanMKE/SSTTapSlider.git', :tag => '0.0.3'
+TapSlider can also be built using [Carthage](https://github.com/carthage/carthage).
+
+Add the following line to your Cartfile:
+
+```sh
+github "brennanMKE/SSTTapSlider" ~> 0.1
+```
 
 ## License
 
