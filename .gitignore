@@ -35,3 +35,6 @@ build
 !*.xcodeproj/project.pbxproj
 !*.xcworkspace/contents.xcworkspacedata
 
+### VSCode ###
+.vscode/*.db
+.vscode/*.db-wal
