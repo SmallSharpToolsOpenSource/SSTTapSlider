@@ -1,20 +1,34 @@
 //
-//  SSTTapSliderViewController.m
+//  DemoViewController.m
 //  SSTTapSlider
 //
-//  Created by Brennan Stehling on 3/8/14.
-//  Copyright (c) 2014 SmallSharpTools. All rights reserved.
+//  Created by Brennan Stehling on 9/1/16.
+//  Copyright © 2016 SmallSharpTools. All rights reserved.
 //
 
-#import "SSTTapSliderViewController.h"
+#import "DemoViewController.h"
 
 #import "SSTTapSlider.h"
 
-@interface SSTTapSliderViewController ()
+// Disables log messages when debugging is turned off
+#ifndef NDEBUG
+
+#define DebugLog(message, ...) NSLog(@"%s: " message, __PRETTY_FUNCTION__, ##__VA_ARGS__)
+
+#else
+
+#define DebugLog(message, ...)
+
+#endif
+
+#pragma mark - Class Extension
+#pragma mark -
+
+@interface DemoViewController () <SSTTapSliderDelegate>
 
 @end
 
-@implementation SSTTapSliderViewController
+@implementation DemoViewController
 
 #pragma mark - SSTTapSliderDelegate
 #pragma mark -

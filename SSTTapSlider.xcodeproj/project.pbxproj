@@ -7,46 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		264C65E718CB91BC0069B9AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264C65E618CB91BC0069B9AE /* Foundation.framework */; };
-		264C65E918CB91BC0069B9AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264C65E818CB91BC0069B9AE /* CoreGraphics.framework */; };
-		264C65EB18CB91BC0069B9AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264C65EA18CB91BC0069B9AE /* UIKit.framework */; };
-		264C65F118CB91BC0069B9AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 264C65EF18CB91BC0069B9AE /* InfoPlist.strings */; };
-		264C65F318CB91BC0069B9AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C65F218CB91BC0069B9AE /* main.m */; };
-		264C65F718CB91BC0069B9AE /* SSTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C65F618CB91BC0069B9AE /* SSTAppDelegate.m */; };
-		264C65FA18CB91BC0069B9AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264C65F818CB91BC0069B9AE /* Main.storyboard */; };
-		264C65FD18CB91BC0069B9AE /* SSTTapSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C65FC18CB91BC0069B9AE /* SSTTapSliderViewController.m */; };
-		264C65FF18CB91BC0069B9AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264C65FE18CB91BC0069B9AE /* Images.xcassets */; };
-		264C661D18CB91E30069B9AE /* SSTTapSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 264C661C18CB91E30069B9AE /* SSTTapSlider.m */; };
+		26895C321D78EAF900B9DF33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26895C311D78EAF900B9DF33 /* main.m */; };
+		26895C351D78EAF900B9DF33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26895C341D78EAF900B9DF33 /* AppDelegate.m */; };
+		26895C3B1D78EAF900B9DF33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26895C391D78EAF900B9DF33 /* Main.storyboard */; };
+		26895C3D1D78EAF900B9DF33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26895C3C1D78EAF900B9DF33 /* Assets.xcassets */; };
+		26895C401D78EAF900B9DF33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26895C3E1D78EAF900B9DF33 /* LaunchScreen.storyboard */; };
+		26895C4A1D78EBA900B9DF33 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26895C491D78EBA900B9DF33 /* DemoViewController.m */; };
+		26895C691D78ECB500B9DF33 /* TapSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 26895C681D78ECB500B9DF33 /* TapSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26895C6D1D78ECB500B9DF33 /* SSTTapSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26895C661D78ECB500B9DF33 /* SSTTapSlider.framework */; };
+		26895C6E1D78ECB500B9DF33 /* SSTTapSlider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26895C661D78ECB500B9DF33 /* SSTTapSlider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26895C741D78ECE000B9DF33 /* SSTTapSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 26895C721D78ECE000B9DF33 /* SSTTapSlider.m */; };
+		26895C751D78ECE000B9DF33 /* SSTTapSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 26895C731D78ECE000B9DF33 /* SSTTapSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		26895C6B1D78ECB500B9DF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 264C65DB18CB91BC0069B9AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26895C651D78ECB500B9DF33;
+			remoteInfo = TapSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26895C5C1D78EC8300B9DF33 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				26895C6E1D78ECB500B9DF33 /* SSTTapSlider.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		264C65E318CB91BC0069B9AE /* SSTTapSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSTTapSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		264C65E618CB91BC0069B9AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		264C65E818CB91BC0069B9AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		264C65EA18CB91BC0069B9AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		264C65EE18CB91BC0069B9AE /* SSTTapSlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSTTapSlider-Info.plist"; sourceTree = "<group>"; };
-		264C65F018CB91BC0069B9AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		264C65F218CB91BC0069B9AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		264C65F418CB91BC0069B9AE /* SSTTapSlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSTTapSlider-Prefix.pch"; sourceTree = "<group>"; };
-		264C65F518CB91BC0069B9AE /* SSTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSTAppDelegate.h; sourceTree = "<group>"; };
-		264C65F618CB91BC0069B9AE /* SSTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSTAppDelegate.m; sourceTree = "<group>"; };
-		264C65F918CB91BC0069B9AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		264C65FB18CB91BC0069B9AE /* SSTTapSliderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSTTapSliderViewController.h; sourceTree = "<group>"; };
-		264C65FC18CB91BC0069B9AE /* SSTTapSliderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSTTapSliderViewController.m; sourceTree = "<group>"; };
-		264C65FE18CB91BC0069B9AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		264C660518CB91BC0069B9AE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		264C661B18CB91E30069B9AE /* SSTTapSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTTapSlider.h; path = Classes/SSTTapSlider.h; sourceTree = SOURCE_ROOT; };
-		264C661C18CB91E30069B9AE /* SSTTapSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTTapSlider.m; path = Classes/SSTTapSlider.m; sourceTree = SOURCE_ROOT; };
+		26895C2E1D78EAF900B9DF33 /* TapSliderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapSliderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26895C311D78EAF900B9DF33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26895C331D78EAF900B9DF33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26895C341D78EAF900B9DF33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26895C3A1D78EAF900B9DF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26895C3C1D78EAF900B9DF33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26895C3F1D78EAF900B9DF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26895C411D78EAF900B9DF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26895C481D78EBA900B9DF33 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		26895C491D78EBA900B9DF33 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		26895C661D78ECB500B9DF33 /* SSTTapSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSTTapSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26895C681D78ECB500B9DF33 /* TapSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapSlider.h; sourceTree = "<group>"; };
+		26895C6A1D78ECB500B9DF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26895C721D78ECE000B9DF33 /* SSTTapSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTTapSlider.m; path = Classes/SSTTapSlider.m; sourceTree = SOURCE_ROOT; };
+		26895C731D78ECE000B9DF33 /* SSTTapSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTTapSlider.h; path = Classes/SSTTapSlider.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		264C65E018CB91BC0069B9AE /* Frameworks */ = {
+		26895C2B1D78EAF900B9DF33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				264C65E918CB91BC0069B9AE /* CoreGraphics.framework in Frameworks */,
-				264C65EB18CB91BC0069B9AE /* UIKit.framework in Frameworks */,
-				264C65E718CB91BC0069B9AE /* Foundation.framework in Frameworks */,
+				26895C6D1D78ECB500B9DF33 /* SSTTapSlider.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26895C621D78ECB500B9DF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +88,8 @@
 		264C65DA18CB91BC0069B9AE = {
 			isa = PBXGroup;
 			children = (
-				264C65EC18CB91BC0069B9AE /* SSTTapSlider */,
+				26895C2F1D78EAF900B9DF33 /* TapSliderDemo */,
+				26895C671D78ECB500B9DF33 /* TapSlider */,
 				264C65E518CB91BC0069B9AE /* Frameworks */,
 				264C65E418CB91BC0069B9AE /* Products */,
 			);
@@ -65,7 +98,8 @@
 		264C65E418CB91BC0069B9AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				264C65E318CB91BC0069B9AE /* SSTTapSlider.app */,
+				26895C2E1D78EAF900B9DF33 /* TapSliderDemo.app */,
+				26895C661D78ECB500B9DF33 /* SSTTapSlider.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,52 +115,92 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		264C65EC18CB91BC0069B9AE /* SSTTapSlider */ = {
+		26895C2F1D78EAF900B9DF33 /* TapSliderDemo */ = {
 			isa = PBXGroup;
 			children = (
-				264C65F518CB91BC0069B9AE /* SSTAppDelegate.h */,
-				264C65F618CB91BC0069B9AE /* SSTAppDelegate.m */,
-				264C65F818CB91BC0069B9AE /* Main.storyboard */,
-				264C65FB18CB91BC0069B9AE /* SSTTapSliderViewController.h */,
-				264C65FC18CB91BC0069B9AE /* SSTTapSliderViewController.m */,
-				264C65FE18CB91BC0069B9AE /* Images.xcassets */,
-				264C65ED18CB91BC0069B9AE /* Supporting Files */,
-				264C661B18CB91E30069B9AE /* SSTTapSlider.h */,
-				264C661C18CB91E30069B9AE /* SSTTapSlider.m */,
+				26895C331D78EAF900B9DF33 /* AppDelegate.h */,
+				26895C341D78EAF900B9DF33 /* AppDelegate.m */,
+				26895C481D78EBA900B9DF33 /* DemoViewController.h */,
+				26895C491D78EBA900B9DF33 /* DemoViewController.m */,
+				26895C391D78EAF900B9DF33 /* Main.storyboard */,
+				26895C3C1D78EAF900B9DF33 /* Assets.xcassets */,
+				26895C3E1D78EAF900B9DF33 /* LaunchScreen.storyboard */,
+				26895C411D78EAF900B9DF33 /* Info.plist */,
+				26895C301D78EAF900B9DF33 /* Supporting Files */,
 			);
-			path = SSTTapSlider;
+			path = TapSliderDemo;
 			sourceTree = "<group>";
 		};
-		264C65ED18CB91BC0069B9AE /* Supporting Files */ = {
+		26895C301D78EAF900B9DF33 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				264C65EE18CB91BC0069B9AE /* SSTTapSlider-Info.plist */,
-				264C65EF18CB91BC0069B9AE /* InfoPlist.strings */,
-				264C65F218CB91BC0069B9AE /* main.m */,
-				264C65F418CB91BC0069B9AE /* SSTTapSlider-Prefix.pch */,
+				26895C311D78EAF900B9DF33 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		26895C671D78ECB500B9DF33 /* TapSlider */ = {
+			isa = PBXGroup;
+			children = (
+				26895C681D78ECB500B9DF33 /* TapSlider.h */,
+				26895C6A1D78ECB500B9DF33 /* Info.plist */,
+				26895C731D78ECE000B9DF33 /* SSTTapSlider.h */,
+				26895C721D78ECE000B9DF33 /* SSTTapSlider.m */,
+			);
+			path = TapSlider;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		26895C631D78ECB500B9DF33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26895C751D78ECE000B9DF33 /* SSTTapSlider.h in Headers */,
+				26895C691D78ECB500B9DF33 /* TapSlider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		264C65E218CB91BC0069B9AE /* SSTTapSlider */ = {
+		26895C2D1D78EAF900B9DF33 /* TapSliderDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 264C661518CB91BC0069B9AE /* Build configuration list for PBXNativeTarget "SSTTapSlider" */;
+			buildConfigurationList = 26895C421D78EAF900B9DF33 /* Build configuration list for PBXNativeTarget "TapSliderDemo" */;
 			buildPhases = (
-				264C65DF18CB91BC0069B9AE /* Sources */,
-				264C65E018CB91BC0069B9AE /* Frameworks */,
-				264C65E118CB91BC0069B9AE /* Resources */,
+				26895C2A1D78EAF900B9DF33 /* Sources */,
+				26895C2B1D78EAF900B9DF33 /* Frameworks */,
+				26895C2C1D78EAF900B9DF33 /* Resources */,
+				26895C5C1D78EC8300B9DF33 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26895C6C1D78ECB500B9DF33 /* PBXTargetDependency */,
+			);
+			name = TapSliderDemo;
+			productName = TapSliderDemo;
+			productReference = 26895C2E1D78EAF900B9DF33 /* TapSliderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26895C651D78ECB500B9DF33 /* TapSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26895C6F1D78ECB500B9DF33 /* Build configuration list for PBXNativeTarget "TapSlider" */;
+			buildPhases = (
+				26895C611D78ECB500B9DF33 /* Sources */,
+				26895C621D78ECB500B9DF33 /* Frameworks */,
+				26895C631D78ECB500B9DF33 /* Headers */,
+				26895C641D78ECB500B9DF33 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SSTTapSlider;
-			productName = SSTTapSlider;
-			productReference = 264C65E318CB91BC0069B9AE /* SSTTapSlider.app */;
-			productType = "com.apple.product-type.application";
+			name = TapSlider;
+			productName = TapSlider;
+			productReference = 26895C661D78ECB500B9DF33 /* SSTTapSlider.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -137,6 +211,14 @@
 				CLASSPREFIX = SST;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = SmallSharpTools;
+				TargetAttributes = {
+					26895C2D1D78EAF900B9DF33 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					26895C651D78ECB500B9DF33 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
 			};
 			buildConfigurationList = 264C65DE18CB91BC0069B9AE /* Build configuration list for PBXProject "SSTTapSlider" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -151,53 +233,76 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				264C65E218CB91BC0069B9AE /* SSTTapSlider */,
+				26895C2D1D78EAF900B9DF33 /* TapSliderDemo */,
+				26895C651D78ECB500B9DF33 /* TapSlider */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		264C65E118CB91BC0069B9AE /* Resources */ = {
+		26895C2C1D78EAF900B9DF33 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				264C65FF18CB91BC0069B9AE /* Images.xcassets in Resources */,
-				264C65F118CB91BC0069B9AE /* InfoPlist.strings in Resources */,
-				264C65FA18CB91BC0069B9AE /* Main.storyboard in Resources */,
+				26895C401D78EAF900B9DF33 /* LaunchScreen.storyboard in Resources */,
+				26895C3D1D78EAF900B9DF33 /* Assets.xcassets in Resources */,
+				26895C3B1D78EAF900B9DF33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26895C641D78ECB500B9DF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		264C65DF18CB91BC0069B9AE /* Sources */ = {
+		26895C2A1D78EAF900B9DF33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				264C65F318CB91BC0069B9AE /* main.m in Sources */,
-				264C65F718CB91BC0069B9AE /* SSTAppDelegate.m in Sources */,
-				264C65FD18CB91BC0069B9AE /* SSTTapSliderViewController.m in Sources */,
-				264C661D18CB91E30069B9AE /* SSTTapSlider.m in Sources */,
+				26895C4A1D78EBA900B9DF33 /* DemoViewController.m in Sources */,
+				26895C351D78EAF900B9DF33 /* AppDelegate.m in Sources */,
+				26895C321D78EAF900B9DF33 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26895C611D78ECB500B9DF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26895C741D78ECE000B9DF33 /* SSTTapSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		264C65EF18CB91BC0069B9AE /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				264C65F018CB91BC0069B9AE /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		26895C6C1D78ECB500B9DF33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26895C651D78ECB500B9DF33 /* TapSlider */;
+			targetProxy = 26895C6B1D78ECB500B9DF33 /* PBXContainerItemProxy */;
 		};
-		264C65F818CB91BC0069B9AE /* Main.storyboard */ = {
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26895C391D78EAF900B9DF33 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				264C65F918CB91BC0069B9AE /* Base */,
+				26895C3A1D78EAF900B9DF33 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26895C3E1D78EAF900B9DF33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26895C3F1D78EAF900B9DF33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -275,29 +380,103 @@
 			};
 			name = Release;
 		};
-		264C661618CB91BC0069B9AE /* Debug */ = {
+		26895C431D78EAF900B9DF33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SSTTapSlider/SSTTapSlider-Prefix.pch";
-				INFOPLIST_FILE = "SSTTapSlider/SSTTapSlider-Info.plist";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = TapSliderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.TapSliderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		264C661718CB91BC0069B9AE /* Release */ = {
+		26895C441D78EAF900B9DF33 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SSTTapSlider/SSTTapSlider-Prefix.pch";
-				INFOPLIST_FILE = "SSTTapSlider/SSTTapSlider-Info.plist";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = TapSliderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.TapSliderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26895C701D78ECB500B9DF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = TapSlider/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.TapSlider;
+				PRODUCT_NAME = SSTTapSlider;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26895C711D78ECB500B9DF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = TapSlider/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.TapSlider;
+				PRODUCT_NAME = SSTTapSlider;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -313,14 +492,21 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		264C661518CB91BC0069B9AE /* Build configuration list for PBXNativeTarget "SSTTapSlider" */ = {
+		26895C421D78EAF900B9DF33 /* Build configuration list for PBXNativeTarget "TapSliderDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				264C661618CB91BC0069B9AE /* Debug */,
-				264C661718CB91BC0069B9AE /* Release */,
+				26895C431D78EAF900B9DF33 /* Debug */,
+				26895C441D78EAF900B9DF33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+		};
+		26895C6F1D78ECB500B9DF33 /* Build configuration list for PBXNativeTarget "TapSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26895C701D78ECB500B9DF33 /* Debug */,
+				26895C711D78ECB500B9DF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
