@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -19,29 +19,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="48S-Eq-xhg" userLabel="Container View">
-                                <rect key="frame" x="40" y="190" width="520" height="220"/>
+                                <rect key="frame" x="40" y="187.5" width="520" height="225"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Regular Slider" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXE-qw-CGg">
-                                        <rect key="frame" x="211.5" y="2" width="97" height="17"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Regular Slider" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXE-qw-CGg">
+                                        <rect key="frame" x="207" y="2" width="106" height="19.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0Mf-5F-N0A">
-                                        <rect key="frame" x="-2" y="27" width="524" height="34"/>
+                                        <rect key="frame" x="-2" y="29" width="524" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="33" id="8yR-WH-c4j"/>
                                         </constraints>
                                         <color key="minimumTrackTintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </slider>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap Sliders" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLb-es-ZzW">
-                                        <rect key="frame" x="222" y="80" width="76.5" height="17"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap Sliders" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLb-es-ZzW">
+                                        <rect key="frame" x="218" y="82" width="84" height="19.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="150" minValue="100" maxValue="200" translatesAutoresizingMaskIntoConstraints="NO" id="7ZE-4Q-88d" customClass="SSTTapSlider">
-                                        <rect key="frame" x="-2" y="105" width="524" height="34"/>
+                                        <rect key="frame" x="-2" y="110" width="524" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="33" id="kVF-w1-O1Y"/>
                                         </constraints>
@@ -51,7 +51,7 @@
                                         </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1500" minValue="1000" maxValue="2000" translatesAutoresizingMaskIntoConstraints="NO" id="Lt6-51-5AY" customClass="SSTTapSlider">
-                                        <rect key="frame" x="-2" y="146" width="524" height="34"/>
+                                        <rect key="frame" x="-2" y="151" width="524" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="33" id="10d-eA-lKJ"/>
                                         </constraints>
@@ -61,7 +61,7 @@
                                         </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5000" minValue="0.0" maxValue="10000" translatesAutoresizingMaskIntoConstraints="NO" id="TEd-6o-6er" customClass="SSTTapSlider">
-                                        <rect key="frame" x="-2" y="187" width="524" height="34"/>
+                                        <rect key="frame" x="-2" y="192" width="524" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="33" id="sPN-Q2-a0b"/>
                                         </constraints>

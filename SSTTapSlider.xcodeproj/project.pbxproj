@@ -14,8 +14,8 @@
 		26895C401D78EAF900B9DF33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26895C3E1D78EAF900B9DF33 /* LaunchScreen.storyboard */; };
 		26895C4A1D78EBA900B9DF33 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26895C491D78EBA900B9DF33 /* DemoViewController.m */; };
 		26895C691D78ECB500B9DF33 /* TapSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 26895C681D78ECB500B9DF33 /* TapSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26895C6D1D78ECB500B9DF33 /* SSTTapSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26895C661D78ECB500B9DF33 /* SSTTapSlider.framework */; };
-		26895C6E1D78ECB500B9DF33 /* SSTTapSlider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26895C661D78ECB500B9DF33 /* SSTTapSlider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26895C6D1D78ECB500B9DF33 /* TapSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26895C661D78ECB500B9DF33 /* TapSlider.framework */; };
+		26895C6E1D78ECB500B9DF33 /* TapSlider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26895C661D78ECB500B9DF33 /* TapSlider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		26895C741D78ECE000B9DF33 /* SSTTapSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 26895C721D78ECE000B9DF33 /* SSTTapSlider.m */; };
 		26895C751D78ECE000B9DF33 /* SSTTapSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 26895C731D78ECE000B9DF33 /* SSTTapSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -37,7 +37,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				26895C6E1D78ECB500B9DF33 /* SSTTapSlider.framework in Embed Frameworks */,
+				26895C6E1D78ECB500B9DF33 /* TapSlider.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,7 +59,7 @@
 		26895C411D78EAF900B9DF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26895C481D78EBA900B9DF33 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		26895C491D78EBA900B9DF33 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
-		26895C661D78ECB500B9DF33 /* SSTTapSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSTTapSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26895C661D78ECB500B9DF33 /* TapSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26895C681D78ECB500B9DF33 /* TapSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapSlider.h; sourceTree = "<group>"; };
 		26895C6A1D78ECB500B9DF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26895C721D78ECE000B9DF33 /* SSTTapSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSTTapSlider.m; path = Classes/SSTTapSlider.m; sourceTree = SOURCE_ROOT; };
@@ -71,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26895C6D1D78ECB500B9DF33 /* SSTTapSlider.framework in Frameworks */,
+				26895C6D1D78ECB500B9DF33 /* TapSlider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				26895C2E1D78EAF900B9DF33 /* TapSliderDemo.app */,
-				26895C661D78ECB500B9DF33 /* SSTTapSlider.framework */,
+				26895C661D78ECB500B9DF33 /* TapSlider.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -199,7 +199,7 @@
 			);
 			name = TapSlider;
 			productName = TapSlider;
-			productReference = 26895C661D78ECB500B9DF33 /* SSTTapSlider.framework */;
+			productReference = 26895C661D78ECB500B9DF33 /* TapSlider.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -341,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -374,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -443,7 +443,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.TapSlider;
-				PRODUCT_NAME = SSTTapSlider;
+				PRODUCT_NAME = TapSlider;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -472,7 +472,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.smallsharptools.TapSlider;
-				PRODUCT_NAME = SSTTapSlider;
+				PRODUCT_NAME = TapSlider;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -499,6 +499,7 @@
 				26895C441D78EAF900B9DF33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26895C6F1D78ECB500B9DF33 /* Build configuration list for PBXNativeTarget "TapSlider" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +508,7 @@
 				26895C711D78ECB500B9DF33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

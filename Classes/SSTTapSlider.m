@@ -13,7 +13,7 @@
 #pragma mark - Initialization
 #pragma mark -
 
--  (id)initWithFrame:(CGRect)aRect {
+- (id)initWithFrame:(CGRect)aRect {
     self = [super initWithFrame:aRect];
     if (self) {
         [self initializeTapSlider];

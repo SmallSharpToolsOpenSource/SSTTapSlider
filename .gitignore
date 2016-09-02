@@ -38,3 +38,5 @@ build
 ### VSCode ###
 .vscode/*.db
 .vscode/*.db-wal
+.browse.VC.db
+.browse.VC.db-shm
